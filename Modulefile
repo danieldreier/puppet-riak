@@ -1,0 +1,11 @@
+name          'basholabs-riak'
+version       '0.1.0'
+source        'github.com/basho-labs/puppet-riak'
+author        'basholabs'
+license       'Apache 2.0'
+summary       'Manage Riak 2.x'
+description   'Manage Riak 2.x'
+project_page  'https://github.com/basho-labs/puppet-riak'
+
+dependency 'puppetlabs/stdlib'
+dependency 'puppetlabs/apt'
